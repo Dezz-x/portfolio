@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: barlow;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ededed;
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*----Start of header----*/
+header {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+}
+
+header h1{
+    font-family: Moirai one;
+    font-size: 54px;
+    color: #da0037;
+    margin-right: auto;
+    margin-left: 20px;
+    transition: .5s;
+
+}
+
+header h1:hover {
+    color: #171717;
+    transition: .5s;
+    cursor: pointer;
+}
+/*----End----*/
+
+
+/*----Start of nav----*/
+nav ul {
+    display: flex;
+    padding: 30px;
+}
+
+nav ul li {
+    padding-left: 200px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #da0037;
+    transition: 0.5s;
+}
+/*----End----*/
+
+
+/*----Start of hero section----*/
+.hero-section {
+    display: flex;
+    min-height: 50vh;
+}
+
+.hero {
+    max-width: 50%;
+    padding: 8%;
+    padding-top: 6%;
+}
+
+.hero h1 {
+    font-size: 98px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.hero p {
+    font-size: 26px;
+    padding: 20px;
+}
+
+.hero button {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 20px;
+    margin: 20px;
+    color: #ededed;
+    background-color: #da0037;
+    border: #da0037 2px solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero button:hover {
+    background-color: #ededed;
+    color: #171717;
+    border: #171717 2px solid;
+    transition: 0.5s;
+}
+/*----End----*/
+
+
+/*----Start of socials----*/
+.hero-right {
+    background-color: transparent;
+    height: 400px;
+    width: 60px;
+    margin-left: auto;
+    margin-top: 8%;
+    border-radius: 2px;
+}
+
+span {
+    display: grid;
+    justify-content: center;
+}
+
+.fa {
+    text-decoration: none;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-instagram {
+    color: #171717;
+    margin-top: 70px;
+    transition: .5s;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover {
+    color: #da0037;
+    transition: .5s;
+}
+/*----End----*/
+
+
+/*----Start of featured----*/
+.featured-container {
+    background-color: #171717;
+    min-height: 75vh;
+}
+
+.featured h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #ededed;
+    font-weight: 800;
+    padding: 40px;
+}
+
