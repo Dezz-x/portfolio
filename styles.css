@@ -156,10 +156,53 @@ span {
 }
 
 .featured h1 {
-    text-align: center;
     font-size: 48px;
     color: #ededed;
     font-weight: 800;
     padding: 40px;
 }
 
+.featured-main-container {
+    display: flex;
+}
+
+.featured-main {
+    border: #ededed 2px solid;
+    height: 380px;
+    width: 1000px;
+    margin-left: 40px;
+}
+
+.featured-main1 {
+    border: #ededed 2px solid;
+    height: 380px;
+    width: 830px;
+    margin-left: 40px;
+}
+
+.featured-bottom-container {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.featured-bottom {
+    border: #ededed 2px solid;
+    height: 380px;
+    width: 480px;
+    margin-left: 40px;
+}
+
+.featured-bottom2 {
+    border: #ededed 2px solid;
+    height: 380px;
+    width: 480px;
+    margin-left: 40px;
+}
+
+.featured-bottom3 {
+    border: #ededed 2px solid;
+    height: 380px;
+    width: 830px;
+    margin-left: 40px;
+}
