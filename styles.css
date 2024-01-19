@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ededed;
+}
+
 .container {
     background-color: #ededed;
     min-height: 100vh;
@@ -70,11 +74,11 @@ nav ul li a:hover {
 /*----Start of hero section----*/
 .hero-section {
     display: flex;
-    min-height: 75vh;
+    max-height: 100vh;
 }
 
 .hero {
-    max-width: 50%;
+    width: 100%;
     padding: 8%;
     padding-top: 6%;
     padding-right: 0px;
@@ -111,6 +115,114 @@ nav ul li a:hover {
     border: #171717 2px solid;
     transition: 0.5s;
 }
+
+/*-----Start of Medi Q (hero-section)-----*/
+
+@media (max-width: 1400px){
+    .hero-section {
+
+    }
+
+}
+
+@media (max-width: 1100px){
+    header h1 {
+        font-size: 44px;
+
+    }
+
+    nav ul li {
+        font-size: 12px;
+    }
+    
+    .hero-section {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .hero h1 {
+        width: 75vw;
+        font-size: 78px;
+    }
+
+    .hero p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 44px;
+
+    }
+    
+    .hero-section {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .hero h1 {
+        width: 75vw;
+        font-size: 58px;
+    }
+
+    .hero p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:650px) {
+    header h1 {
+        font-size: 34px;
+
+    }
+    
+    .hero-section {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .hero h1 {
+        width: 75vw;
+        font-size: 58px;
+
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    header h1 {
+        font-size: 34px;
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+
+    nav ul li {
+        padding-left: 40px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .hero-section {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .hero h1 {
+        width: 75vw;
+        font-size: 58px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
 /*----End----*/
 
 
@@ -146,6 +258,29 @@ span {
 .fa-instagram:hover {
     color: #da0037;
     transition: .5s;
+}
+
+/*-----Start of Media Q (socials)-----*/
+@media (max-width: 550px) {
+    .hero-right {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    span {
+        display: flex;
+        width: fit-content;
+    }
+   
+    .fa-github,
+    .fa-linkedin,
+    .fa-instagram {
+        margin-left: 80px;
+    }
+
 }
 /*----End----*/
 
