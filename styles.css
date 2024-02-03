@@ -27,7 +27,7 @@ header {
 }
 
 header h1{
-    font-family: Moirai one;
+    font-family: Protest riot;
     font-size: 54px;
     color: #da0037;
     margin-right: auto;
@@ -74,7 +74,7 @@ nav ul li a:hover {
 /*----Start of hero section----*/
 .hero-section {
     display: flex;
-    max-height: 100vh;
+    min-height: 75vh;
 }
 
 .hero {
