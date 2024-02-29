@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-left: 200px;
+    padding-left: 100px;
     list-style: none;
 }
 
@@ -115,9 +115,9 @@ nav ul li a:hover {
     border: #171717 2px solid;
     transition: 0.5s;
 }
+/*-----End-----*/
 
 /*-----Start of Medi Q (hero-section)-----*/
-
 @media (max-width: 1400px){
     .hero-section {
 
@@ -340,15 +340,20 @@ span {
     min-width: 300px;
     height: 350px;
 }
+/*-----End-----*/
 
+/*-----Start of contact-----*/
 .contact-container{
     min-height: 75vh;
-    padding: 20px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .contact-section h1{
     font-size: 48px;
     font-weight: 800;
+    text-align: center;
 }
 
 .contact-section form{
@@ -357,7 +362,11 @@ span {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.contact-section form label{
+    font-size: 18px;
 }
 
 .contact-section form input{
@@ -393,13 +402,20 @@ input#submit:hover{
     cursor: pointer;
 
 }
+/*-----End-----*/
 
+/*-----Start of the footer-----*/
 .footer-container{
-    padding: 40px;
     background-color: #171717;
-    width: 100%;
 }
 
 .footer-section{
-    min-height: 5vh;
+    min-height: 80px;
+}
+
+.footer-section p {
+    color: #ededed;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
 }
