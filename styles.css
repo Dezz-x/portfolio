@@ -317,12 +317,16 @@ span {
 
 .featured-top h2 {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     color: #ededed;
-    font-size: 32px;
-    font-family: Protest riot;
-    font-weight: 300;
+    background-color: #171717;
+    padding: 10px;
+    border: 1px solid #ededed;
+    font-size: 38px;
+    font-family: Bangers;
+    font-weight: 500;
+    letter-spacing: 1px;
     z-index: 2;
 }
 
