@@ -306,7 +306,7 @@ span {
 }
 
 .featured-top {
-    border: #ededed 2px solid;
+    border: 2px solid #ededed;
     width: 720px;
     min-width: 300px;
     max-width: 820px;
@@ -317,11 +317,10 @@ span {
 
 .featured-top h2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 10px;
+    left: 10px;
     color: #ededed;
-    font-size: 38px;
+    font-size: 32px;
     font-family: Protest riot;
     font-weight: 300;
     z-index: 2;
@@ -333,10 +332,14 @@ span {
     width: 720px;
     height: fit-content;
     top: -140px;
-    opacity: 65%;
+    opacity: 75%;
     z-index: 1;
 }
 
+.featured-top img:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
 
 .featured-top2 {
     border: #ededed 2px solid;
