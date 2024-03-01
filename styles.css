@@ -396,6 +396,7 @@ span {
 }
 
 .featured-bottom h2,
+.featured-bottom2 h2,
 .featured-bottom4 h2 {
     position: absolute;
     bottom: 10px;
@@ -412,6 +413,7 @@ span {
 }
 
 .featured-bottom img,
+.featured-bottom2 img,
 .featured-bottom4 img {
     position: absolute;
     width: inherit;
