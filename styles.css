@@ -395,7 +395,8 @@ span {
     height: 350px;
 }
 
-.featured-bottom h2 {
+.featured-bottom h2,
+.featured-bottom4 h2 {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -410,7 +411,8 @@ span {
     z-index: 2;
 }
 
-.featured-bottom img {
+.featured-bottom img,
+.featured-bottom4 img {
     position: absolute;
     width: inherit;
     height: inherit;
