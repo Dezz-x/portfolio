@@ -116,111 +116,7 @@ nav ul li a:hover {
 /*-----End-----*/
 
 /*-----Start of Medi Q (hero-section)-----*/
-@media (max-width: 1400px){
-    .hero-section {
 
-    }
-
-}
-
-@media (max-width: 1100px){
-    header h1 {
-        font-size: 44px;
-
-    }
-
-    nav ul li {
-        font-size: 12px;
-    }
-    
-    .hero-section {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .hero h1 {
-        width: 75vw;
-        font-size: 78px;
-    }
-
-    .hero p {
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 992px) {
-    header h1 {
-        font-size: 44px;
-
-    }
-    
-    .hero-section {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .hero h1 {
-        width: 75vw;
-        font-size: 58px;
-    }
-
-    .hero p {
-        font-size: 22px;
-    }
-}
-
-@media (max-width:650px) {
-    header h1 {
-        font-size: 34px;
-
-    }
-    
-    .hero-section {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .hero h1 {
-        width: 75vw;
-        font-size: 58px;
-
-    }
-
-    .hero p {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 550px) {
-    header h1 {
-        font-size: 34px;
-        margin-left: 0px;
-        margin-top: 13px;
-    }
-
-    nav ul li {
-        padding-left: 40px;
-    }
-
-    nav ul li a {
-        font-size: 14px;
-    }
-
-    .hero-section {
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-    }
-
-    .hero h1 {
-        width: 75vw;
-        font-size: 58px;
-    }
-
-    .hero p {
-        font-size: 18px;
-    }
-}
 /*----End----*/
 
 
@@ -237,6 +133,7 @@ nav ul li a:hover {
 span {
     display: grid;
     justify-content: center;
+    position: fixed;
 }
 
 .fa {
@@ -284,13 +181,12 @@ span {
 
 /*----Start of featured----*/
 .featured-container {
-    background-color: #171717;
     min-height: 75vh;
 }
 
 .featured h1 {
     font-size: 48px;
-    color: #ededed;
+    color: #171717;
     font-weight: 800;
     padding: 20px;
     padding-bottom: 20px;
@@ -307,7 +203,6 @@ span {
 
 .featured-top,
 .featured-top2 {
-    border: 2px solid #ededed;
     width: 720px;
     min-width: 300px;
     max-width: 820px;
@@ -316,18 +211,17 @@ span {
     overflow: hidden;
 }
 
-.featured-top h2 {
+.featured-top h2,
+.featured-top2 h2 {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    color: #ededed;
-    background-color: #171717;
-    padding: 10px;
-    border: 1px solid #ededed;
-    font-size: 38px;
-    font-family: Bangers;
-    font-weight: 500;
-    letter-spacing: 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #171717;
+    background-color: #ededed;
+    padding: 5px;
+    font-size: 32px;
+    font-weight: 1000;
     z-index: 2;
 }
 
@@ -338,7 +232,6 @@ span {
     max-width: inherit;
     max-height: inherit;
     object-fit: cover;
-    opacity: 75%;
     z-index: 1;
 }
 
@@ -348,23 +241,8 @@ span {
 .featured-bottom2 img:hover,
 .featured-bottom3 img:hover,
 .featured-bottom4 img:hover {
-    opacity: 100%;
+    opacity: 80%;
     cursor: pointer;
-}
-
-.featured-top2 h2{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    color: #ededed;
-    background-color: #171717;
-    padding: 10px;
-    border: 1px solid #ededed;
-    font-size: 38px;
-    font-family: Bangers;
-    font-weight: 500;
-    letter-spacing: 1px;
-    z-index: 2;
 }
 
 .featured-top2 img{
@@ -374,7 +252,6 @@ span {
     max-width: inherit;
     max-height: inherit;
     object-fit: cover;
-    opacity: 75%;
     z-index: 1;
 }
 
@@ -384,14 +261,12 @@ span {
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    padding-bottom: 80px;
 }
 
 .featured-bottom, .featured-bottom2, 
 .featured-bottom3, .featured-bottom4 {
     position: relative;
     overflow: hidden;
-    border: #ededed 2px solid;
     width: 350px;
     max-width: 350px;
     min-width: 300px;
@@ -403,16 +278,13 @@ span {
 .featured-bottom3 h2,
 .featured-bottom4 h2 {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color:#ededed;
-    background-color: #171717;
-    padding: 10px;
-    border: 1px solid #ededed;
-    font-size: 28px;
-    font-family: Bangers;
-    font-weight: 500;
-    letter-spacing: 1px;
+    bottom: 20px;
+    left: 20px;
+    color:#171717;
+    background-color: #ededed;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 1000;
     z-index: 2;
 }
 
@@ -426,7 +298,6 @@ span {
     max-width: inherit;
     max-height: inherit;
     object-fit: cover;
-    opacity: 75%;
     z-index: 1;
 }
 /*-----End-----*/
