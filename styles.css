@@ -132,7 +132,6 @@ nav ul li a:hover {
 span {
     display: grid;
     justify-content: center;
-    position: fixed;
 }
 
 .fa {
@@ -176,6 +175,24 @@ span {
     }
 }
 /*----End----*/
+
+#back-to-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border-radius: 20%;
+    border: none;
+    color: #ededed;
+    background-color: #171717;
+    padding: 0px;
+    margin: 0px;
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
 
 /*-----Start of about section-----*/
 .about-container{
