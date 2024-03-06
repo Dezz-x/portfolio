@@ -2,8 +2,8 @@ const scrollToTop = document.getElementById("back-to-top")
 scrollToTop.addEventListener("click", topFunction())
 
 function topFunction (){
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    document.body.scrollTo({top: 0, behavior:"smooth"});
+    document.documentElement.scrollTo({top: 0, behavior: "smooth"});
 }
 
 window.onscroll = function(){scrollFunction()};

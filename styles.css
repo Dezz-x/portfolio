@@ -192,6 +192,12 @@ span {
     height: 60px;
     width: 60px;
     cursor: pointer;
+    transition: ease .5s;
+}
+
+#back-to-top:hover{
+    background-color: #da0037;
+    transition: .5s;
 }
 
 /*-----Start of about section-----*/
